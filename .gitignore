@@ -1,0 +1,11 @@
+# Ignore client and server node_modules
+/client/node_modules
+/server/node_modules
+
+# Ignore .env files containing sensitive information
+/server/.env
+
+/server/new_concepts.txt
+/client/new_concepts.txt
+
+

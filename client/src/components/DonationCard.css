@@ -1,0 +1,106 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Serif:wght@400;500;600;700&display=swap");
+
+.cards-container {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  font-family: "Noto Serif", serif;
+}
+
+.card {
+  background-color: white;
+  border-radius: 20px;
+  padding: 40px;
+  margin: 40px 0;
+  width: 75%;
+  display: flex;
+  gap: 30px;
+  box-shadow: rgba(0, 0, 0, 0.1) -4px 9px 25px -6px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.donation-image {
+  border-radius: 15px;
+}
+
+.card-details {
+  width: 100%;
+}
+
+.name {
+  font-size: 1.8rem;
+  font-weight: 600;
+  margin: 0;
+}
+
+.description {
+  font-size: 17px;
+  font-weight: 400;
+  margin-bottom: 10px;
+  color: rgb(98, 98, 98);
+}
+
+.price {
+  font-size: 16px;
+  font-weight: 600;
+  color: rgb(212, 74, 49);
+}
+
+.amountGained {
+  font-size: 16px;
+  font-weight: 600;
+  color: rgb(34, 199, 45);
+}
+
+.amount {
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.input-amount {
+  width: 50%;
+  padding: 5px;
+  margin-left: 5px;
+  height: 40px;
+}
+
+.input-amount:focus {
+  border: 2px solid #2691cf;
+  background-color: #fff;
+  color: #000;
+  outline: none;
+  border-radius: 5px;
+}
+
+.submitBtn {
+  border: none;
+  padding: 10px 30px;
+  background-color: #2691cf;
+  color: #fff;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: all 0.5s ease-in-out;
+}
+
+.submitBtn:hover {
+  background-color: #498ac4;
+  transform: scale(1.05);
+  font-weight: 500;
+}
+
+@media (max-width: 640px) {
+  .card {
+    flex-direction: column;
+  }
+  .input-amount {
+    width: 70%;
+  }
+  .buttonContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+  }
+}
