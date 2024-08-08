@@ -78,7 +78,7 @@ const Donation = ({ cardDetails }) => {
         name: "ConnectHub",
         description: "Islamic Social Media App",
         image:
-          "https://raw.githubusercontent.com/rahilahmed20/Salaam/c77282938dd52c51ec4a465e6b6be36443d7a0ec/client/public/assets/Salaam-logo.svg",
+          "https://github.com/Rahilsamani/ConnectHub/blob/main/client/public/assets/logo.jpeg",
         order_id: order.id,
         callback_url: "http://localhost:3001/payment/paymentVerification",
         prefill: {
