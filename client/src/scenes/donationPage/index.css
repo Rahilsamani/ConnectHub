@@ -1,0 +1,19 @@
+.tab_Btn {
+  background-color: rgb(227, 215, 215);
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  font-size: 0.9rem;
+}
+.donateBtn {
+  border-radius: 10px 0 0 10px;
+}
+
+.createBtn {
+  border-radius: 0 10px 10px 0;
+}
+
+.activeTab {
+  background-color: #28679d;
+  color: #fff;
+}
